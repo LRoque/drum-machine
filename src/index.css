@@ -1,0 +1,16 @@
+#drum-machine {
+  display: flex;
+  flex-direction: row;
+}
+
+#display {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+
+#pads {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  gap: 1rem;
+}
